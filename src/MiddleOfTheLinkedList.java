@@ -42,7 +42,6 @@ public class MiddleOfTheLinkedList {
         System.out.println(middleNode(case2()).val);
         System.out.println(middleNode(case3()).val);
         System.out.println(middleNode(case4()).val);
-
     }
 
 }
