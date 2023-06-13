@@ -1,3 +1,5 @@
+package Week1;
+
 public class BackspaceStringCompare {
 
     public static String drill(String inp) {

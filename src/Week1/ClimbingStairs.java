@@ -1,3 +1,5 @@
+package Week1;
+
 public class ClimbingStairs {
     public int climbStairs(int n) {
         int[] d = new int[46];

@@ -1,3 +1,5 @@
+package Week1;
+
 public class LongestCommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
         int minLen = strs[0].length();

@@ -1,3 +1,5 @@
+package Week1;
+
 public class FirstBadVersion {
 
     static int first;

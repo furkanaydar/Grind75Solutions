@@ -1,3 +1,5 @@
+package Week1;
+
 public class LongestPalindrome {
     public static int longestPalindrome(String s) {
         int[] chars = new int[60];

@@ -1,3 +1,5 @@
+package Week1;
+
 public class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] counts = new int[27];

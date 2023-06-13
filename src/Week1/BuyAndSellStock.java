@@ -1,3 +1,5 @@
+package Week1;
+
 public class BuyAndSellStock {
 
     public static int maxProfit(int[] prices) {

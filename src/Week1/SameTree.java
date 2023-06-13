@@ -1,5 +1,6 @@
-public class MaximumDepthOfBinaryTree {
+package Week1;
 
+public class SameTree {
     public class TreeNode {
         int val;
         TreeNode left;
@@ -13,12 +14,11 @@ public class MaximumDepthOfBinaryTree {
         }
     }
 
-    public int maxDepth(TreeNode root) {
-        if (root == null) {
-            return 0;
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null || q == null) {
+            return p == null && q == null;
         }
 
-        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+        return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
-
 }

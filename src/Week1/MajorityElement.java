@@ -1,3 +1,5 @@
+package Week1;
+
 public class MajorityElement {
     /*
         Runtime Complexity: O(N). Because we check every element of array at most once.

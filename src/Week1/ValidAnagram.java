@@ -1,3 +1,5 @@
+package Week1;
+
 public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         int[] h = new int[27];
