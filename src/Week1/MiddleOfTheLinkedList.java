@@ -1,14 +1,8 @@
 package Week1;
 
-public class MiddleOfTheLinkedList {
+import common.ListNode;
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
+public class MiddleOfTheLinkedList {
 
     public static ListNode middleNode(ListNode head) {
         ListNode slow = head;

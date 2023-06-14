@@ -1,19 +1,8 @@
 package Week1;
 
-public class LinkedListCycle {
+import common.ListNode;
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-        ListNode(int x, ListNode next) {
-            val = x;
-            this.next = next;
-        }
-    }
+public class LinkedListCycle {
 
     public static boolean hasCycle(ListNode head) {
         ListNode slow = head;

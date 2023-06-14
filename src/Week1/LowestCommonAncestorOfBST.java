@@ -1,13 +1,8 @@
 package Week1;
 
+import common.TreeNode;
+
 public class LowestCommonAncestorOfBST {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-        TreeNode(int x, TreeNode l, TreeNode r) { val = x; left = l; right = r; }
-    }
 
     // first solution but not logN
     static TreeNode dfs(TreeNode root, int s, int e) {

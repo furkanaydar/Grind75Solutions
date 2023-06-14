@@ -1,5 +1,7 @@
 package Week1;
 
+import common.ListNode;
+
 public class ReverseLinkedList {
 
     public static ListNode reverseList(ListNode head) {
@@ -19,14 +21,6 @@ public class ReverseLinkedList {
         System.out.println(reverseList(case1()).val);
         System.out.println(reverseList(case2()).val);
         System.out.println(reverseList(case3()).val);
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
     public static ListNode case1() {
